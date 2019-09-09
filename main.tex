@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Set Theory #1}
+\author{Emilio Madrazo: em3362 }
+\date{September 11th 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Exercise 1}
+\text{We know using the pairing axiom that \{u\} and \{v,w\} exist. \\
+Let A = \{u\}, and B = \{v,w\}. \\
+\\
+Using the pairing axiom: \forall x \forall y \exists u (\forall z (z \in u \Longleftrightarrow ( z = x \cup z = y )) \\
+}
+
+\text{Let x = A, y = B and assume there exists C s.t C = u \\ 
+Therefore we can restructure the axiom: 'For the set A, and set B, there exists a set C, such that any element in C is A or B'.
+In other words: (C = A \cup B) \\
+}
+
+\text{Using the union axiom: \forall x \exists y \forall u  ( u \in y \ \Longleftrightarrow \exists z  (z  \in x \cap u \in z )) \\
+}
+
+\text{First, let  x = B = \{v, w\}, y = C, therefore u = v or w. Finally Assume there exists z = \{v\}. \\}
+\text{
+For set A, there exists C, such that for any element in A, in particular v, v is in C iff v is in z and z is in B. We know this to be true. Therefore v is in C \\}
+\text{Similarly now assume z = \{w\}. We find w is in C.\\
+Secondly, let x = A, y = C and u = u. Therefore z = \{u\} = A.
+Using the same logic we get u is in C.\\
+u \in C, v \in C, w \in C. \\
+C = \{u, v, w \}}
+
+\section{Exercise 6}
+
+\text{We know A and B are sets.\\
+}
+
+\text{Using the power set Axiom: \forall x \exists y \forall z ( z \in y \Longleftrightarrow z \subset x): \\
+}
+
+\text{Let x = A. Therefore the axiom states that for any set, in particular A, there exists P(A) such that for any set z, z is in P(A) iff z is a subset of A. \\
+Since A exists, P(A) exists}
+
+
+\end{document}
